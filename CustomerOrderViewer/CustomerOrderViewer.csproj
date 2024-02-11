@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SQLdata.sql" />
+    <Content Include="view.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
