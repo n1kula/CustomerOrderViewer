@@ -1,0 +1,9 @@
+﻿USE CustomerOrderViewer;
+
+ALTER TABLE [dbo].[CustomerOrder]
+ADD CreatedAt DATETIME NOT NULL DEFAULT(GETDATE()),
+    CreateId VARCHAR(50) NOT NULL DEFAULT('System'),
+    UpdatedAt DATETIME NOT NULL DEFAULT(GETDATE()),
+    UpdateId VARCHAR(50) NOT NULL DEFAULT('System'),
+    IsActive BIT NOT NULL DEFAULT(CONVERT(BIT, 1))
+GO

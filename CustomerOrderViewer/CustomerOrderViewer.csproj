@@ -56,8 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SQLdata.sql" />
-    <Content Include="view.sql" />
+    <Content Include="SQL\AlterTables.sql" />
+    <Content Include="SQL\Procedures.sql" />
+    <Content Include="SQL\SQLdata.sql" />
+    <Content Include="SQL\view.sql" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
