@@ -18,6 +18,7 @@ CREATE VIEW [dbo].[CustomerOrderDetail] AS
 		c.CustomerId,
 		c.FirstName,
 		c.LastName,
+		i.ItemId,
 		i.Description,
 		i.Price
 	FROM
